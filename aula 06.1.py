@@ -1,0 +1,12 @@
+algo=input("Digite algo: ")
+
+print("\no tipo primitivo desse valor é: \033[1m\033[96m{}\033[0m\033[0m ".format(type(algo)))
+print("Só tem espaços? \033[1m\033[96m{}\033[0m".format(algo.isspace()))
+print("É um número? \033[1m\033[96m{}\033[0m".format(algo.isnumeric()))
+print("É alfabeto? \033[1m\033[96m{}\033[0m".format(algo.isalpha()))
+print("É alfanumérico? \033[1m\033[96m{}\033[0m".format(algo.isalnum()))
+print("Está em maiusculas? \033[1m\033[96m{}\033[0m".format(algo.isupper()))
+print("Está em minusculas? \033[1m\033[96m{}\033[0m".format(algo.islower()))
+print("Está capitalizada? \033[1m\033[96m{}\033[0m".format(algo.istitle()))
+
+
