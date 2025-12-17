@@ -14,10 +14,8 @@ escolha_python = random.choice(['Pedra','Papel','Tesoura'])
 
 print('Minha escolha é {} e a sua é {}'.format(escolha_python,escolha_title))
 
-if escolha == escolha_python:
-    str(input('Escolha {} para Pedra.'
-              ' Escolha {} para Papel.'
-              ' Escolha {} para Tesoura.\n '.format(txt_style(escolha_1), txt_style(escolha_2), txt_style(escolha_3))))
+if escolha_title == escolha_python:
+    print('Empate!!')
 elif escolha_title == escolha_1 and escolha_python == escolha_2:
     print('Você Perdeu!!')
 elif escolha_title == escolha_1 and escolha_python == escolha_3:
