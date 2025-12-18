@@ -5,3 +5,6 @@
 #4. git commit -m
 #5. git push origin master
 #6. git pull origin master
+#deletar
+#7 git branch -d issues
+#8 git push origin --delete issues

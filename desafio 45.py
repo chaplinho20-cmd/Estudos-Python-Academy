@@ -10,6 +10,7 @@ escolha = str(input('Escolha {} para Pedra.'
                     ' Escolha {} para Tesoura.\n '.format(txt_style(escolha_1),txt_style(escolha_2),txt_style(escolha_3))))
 
 escolha_title = escolha.title()
+
 escolha_python = random.choice(['Pedra','Papel','Tesoura'])
 
 print('Minha escolha é {} e a sua é {}'.format(escolha_python,escolha_title))
